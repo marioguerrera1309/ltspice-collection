@@ -1,0 +1,7 @@
+Alimentatore
+*
+D1 1 2 mydiode
+RL 2 0 1k
+VIN  1 0 0 AC 12 50 SIN 0 12 50
+.TRAN 80m
+.model mydiode D IS=10f CJ0=100F TT=100n

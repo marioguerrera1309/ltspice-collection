@@ -1,0 +1,10 @@
+Trans4Resistenze
+*
+m1 2 1 0 0 mynmos w=100u l=2u
+.model mynmos nmos level=1 kp=0.1m VT0=1 lambda=0.01
+Vgs 1 0 1.436 sin 1.436 100m 1k
+Vdd 3 0 10
+Rd 3 2 10k
+.op
+*.dc Vgs 0 10 1m
+.tran 4m

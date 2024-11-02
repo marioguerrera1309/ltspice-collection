@@ -1,0 +1,8 @@
+Partitore
+*
+R1 1 2 1 K
+R2 2 0 1K
+VIN 1 0 1
+;.DC VIN -1 1 1m
+.TF V(1,2) VIN
+

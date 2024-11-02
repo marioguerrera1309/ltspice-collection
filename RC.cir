@@ -1,0 +1,6 @@
+Esempio 1
+*
+Vin 1 0 0 AC 1
+R1 1 2 200
+C1 2 0 1U
+.ac dec 100 10 100k
